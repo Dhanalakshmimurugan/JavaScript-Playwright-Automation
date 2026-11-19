@@ -1,0 +1,11 @@
+// String Declaration by literals
+let word = "DhanaLakshmi is QA Engineer";
+//String Declaration by object
+const my = new String ("Dhana");
+console.log(my.toUpperCase())
+let d=my.toLowerCase();
+console.log(d)
+let a = word.toLowerCase();
+console.log(a);
+let e = word.toUpperCase();
+console.log(e);
