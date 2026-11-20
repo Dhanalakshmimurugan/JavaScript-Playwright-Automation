@@ -1,0 +1,11 @@
+const my = " Have a Nice day "
+console.log(my.length)
+let a =my.startsWith(" Have a");
+console.log(a);
+let d = my.trim();
+console.log(d)
+console.log(d.length)
+let b = my.includes("Nice ")
+console.log(b)
+let c = d.endsWith("day");
+console.log(c)
