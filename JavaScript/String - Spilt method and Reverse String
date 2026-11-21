@@ -1,0 +1,15 @@
+let a ="Dhana Lakshmi"
+let revstr =""
+let b = a.split(" ");
+console.log(b.length + "Length" )
+console.log("Actual String : " + b)
+for(let i=b.length-1 ; i>=0;i--){
+   revstr = revstr + b[i] + " ";
+   //console.log(revstr)
+}
+console.log(revstr);
+let c = ""
+for(let d=revstr.length-1;d>=0;d--){
+  c =c +revstr[d] 
+}
+console.log(c)
