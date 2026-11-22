@@ -1,0 +1,15 @@
+let a = "My Name is Dhana";
+let b = new String("My Name is Dhana");
+//Double Equals checks only the value and returns boolean 
+console.log("Double Equals")
+console.log(a==b )
+// triple Equals checks both memoryplace ,datatype and value , returns boolean
+console.log("Triple Equals");
+console.log(a===b)
+
+
+Output :
+Double Equals
+true
+Triple Equals
+false
